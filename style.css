@@ -1,0 +1,178 @@
+/* فونت کلی */
+body {
+    font-family: 'Vazirmatn', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* هدر */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.image-header {
+    position:absolute ;
+    top: 5% ;
+    right: 20px ;
+    width: 100px ;
+    height: 100px ;
+    border-radius: 50% ;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* منو */
+nav {
+    background-color: #444;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background: #555;
+    border-radius: 5px;
+}
+
+/* محتوای اصلی */
+main {
+    padding: 20px;
+    background-image: url('background3.jpg'); 
+    background-size: 626px x 416px; 
+    background-repeat: repeat;
+    background-position: right;
+}
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* پروژه‌ها */
+.projects {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.project h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* فرم تماس */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-size: 1rem;
+}
+
+form input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background: #444;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #333;
+}
+
+/* فوتر */
+footer {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer h3 {
+    color: #ddd;
+}
+
+.social-button {
+    display: flex;
+    gap: 10px; /* فاصله بین دکمه‌ها */
+    justify-content: center;
+    
+  }
+  
+  .social {
+    display: flex;
+    width: 40px; /* اندازه دکمه‌ها کوچک‌تر شده است */
+    height: 40px;
+    border-radius: 50% ;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .social img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .social:hover {
+    transform: scale(1.2);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .email {
+    background-color: #333;
+  }
